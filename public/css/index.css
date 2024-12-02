@@ -1,0 +1,251 @@
+/* ----- GLOBAL ----- */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 255px;
+    background: #fafafa;
+}
+
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('fonts/Afacad-Regular.ttf');
+}
+
+:root {
+    --Sofia: 'Sofia';
+    --Afacad: 'Afacad';
+}
+
+/* ----- GLOBAL ----- */
+
+
+/* ----- HEADER ----- */
+
+header {
+    margin-bottom: 5px;
+    background: #f2f2f2;
+    display: flex;
+    font-family: var(--Afacad);
+    align-items: center;
+    justify-content: space-between;
+    color: #595959;
+    box-shadow: 0 3px 3px -4px #595959;
+}
+
+header > img {
+    margin: 10px 10px 3px;
+}
+
+header > ul {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background: #e6e6e6;
+    border-radius: 10px;
+}
+
+header > ul > li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* ----- HEADER ----- */
+
+
+/* ----- HEADER 2 ----- */
+
+#header_2 {
+    margin: 5px 10px 5px;
+    font-family: var(--Sofia);
+    color: #404040;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url('/img/fff.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header_2 > h2 {
+    padding: 20px;
+    font-size: clamp(1rem, 10vw, 1.5rem); 
+    text-shadow: #000000 1px 0 10px;
+    color: #ffffff;
+}
+
+/* ----- HEADER 2 ----- */
+
+
+/* ----- SECTION ----- */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    hyphens: auto;
+}
+
+.box_section {
+    margin: 5px 10px 5px;
+    width: 100%;
+    font-size: 18px;
+    background: #e6e6e6;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: var(--Afacad);
+}
+
+.box_section > h4 {
+    padding: 10px;
+    background: #315cde;
+    text-align: center;
+    color: #ffffff;
+}
+
+.p {
+    padding: 10px;
+    font-weight: 300;
+    color: #595959;
+}
+
+.box_section_img {
+    display: block;
+    margin: auto;
+}
+
+/* ----- SECTION ----- */
+
+
+/* ----- SECTION 2 ----- */
+
+.box_section2 {
+    margin: 5px 10px 5px;
+    background: #e6e6e6;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: var(--Afacad);
+}
+
+.box_section2 > h4 {
+    padding: 10px;
+    background: #f99245;
+    text-align: center;
+    color: #ffffff;
+}
+
+.box_section2 > p > img {
+    float: right;
+    padding: 5px 5px 5px 35px;
+}
+
+.box_section2 > p {
+    font-size: 25px;
+}
+
+/* ----- SECTION 2 ----- */
+
+
+/* ----- FOOTER ----- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background: #f99245;
+}
+
+footer > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+footer > ul > li {
+    padding: 5px;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ----- FOOTER ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- RESPONSIVE ----- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    .box_section {
+        text-align: center;
+    }
+
+    .box_section2 {
+        text-align: center;
+    }
+    
+    .box_section2 > p > img {
+        float: none;
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+    .box_section2 > p {
+        font-size: 18px;
+    }
+
+    footer > ul > li > img {
+        width: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+/* ----- RESPONSIVE ----- */
