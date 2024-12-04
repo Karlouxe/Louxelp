@@ -69,7 +69,6 @@ header > ul > li {
 #header_2 {
     margin: 5px 10px 5px;
     font-family: var(--Sofia);
-    color: #404040;
     text-align: center;
     border-radius: 10px;
     background-image: url('/img/fff.png');
@@ -81,7 +80,7 @@ header > ul > li {
 #header_2 > h2 {
     padding: 20px;
     font-size: clamp(1rem, 10vw, 1.5rem); 
-    text-shadow: #000000 1px 0 10px;
+    text-shadow: #cccccc 1px 0 10px;
     color: #ffffff;
 }
 
