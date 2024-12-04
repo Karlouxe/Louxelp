@@ -80,7 +80,7 @@ header > ul > li {
 #header_2 > h2 {
     padding: 20px;
     font-size: clamp(1rem, 10vw, 1.5rem); 
-    text-shadow: #cccccc 1px 0 10px;
+    text-shadow: #b3b3b3 1px 0 10px;
     color: #ffffff;
 }
 
