@@ -15,12 +15,12 @@ body {
 
 @font-face {
     font-family: 'Sofia';
-    src: url('fonts/Sofia/Sofia-Regular.ttf');
+    src: url('/fonts/Sofia/Sofia-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Afacad';
-    src: url('fonts/Afacad/Afacad-Regular.ttf');
+    src: url('/fonts/Afacad/Afacad-Regular.ttf');
 }
 
 :root {
